@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    background-color: bisque;
+    color: black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.logo img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navegacion{
+    width: 80%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: larger; 
+}
+
+.centrar{
+    margin-top: 20px;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: larger; 
+}
+
+.contenedor_libros{
+    background-color: rgba(127, 255, 212, 0.692);
+    width: 1600px;
+    height: 1500px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.libro_item{
+    width: 50%;
+    display: inline;
+    float: left;
+    margin-top: 20px;
+}
+
+.contenedor_libros .libro_item .contenido {
+    background-color: blue;
+    width: 60%;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contenedor_libros .libro_item .contenido .titulo{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contenedor_libros .libro_item .contenido .imagen{
+    background-color: chocolate;
+    width: 80%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_libros .libro_item .contenido .descripcion{
+    background-color: aliceblue;
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
